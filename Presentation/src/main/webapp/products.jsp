@@ -9,21 +9,24 @@
 		</tr>
 	</table>
 </form>
+
+<table>
+
+	<tbody>
 <c:forEach var="product" items="${products}">
-	<br />
-	<br />
-	<table>
-		<caption style="margin: 0px auto; font-size: 3em">${product.name}</caption>
-		<tr style="border: 1px solid black;">
-			<td style="border: 1px solid black; padding: 5px"><img
-				alt="${product.name}" src="/images/${product.image}.png"
-				height="144" width="144"></td>
-			<td style="border: 1px solid black; padding: 5px">${product.description}</td>
-			<td style="border: 1px solid black; padding: 5px">Product
-				x_Dimensions: ${product.length} x ${product.width} x ${product.height}
-				<br /> Product Weight: ${product.weight}
+		<tr>
+			<td>
+				<caption>${product.name}</caption>
+				<img
+					alt="${product.name}" src="/images/${product.image}.png"
+					height="144" width="144">
+					</td>
+			<td>${product.description}</td>
+			<td>Product
+				x_Dimensions: ${product.length}cm x ${product.width}cm x ${product.height}cm
+				<br /> Product Weight: ${product.weight}kg
 			</td>
-			<td style="border: 1px solid black; padding: 5px">
+			<td>
 				<p style="font-size: 1.5em">$${product.price}</p>
 				<p>Availability: ${product.availability}</p> <c:if
 					test="${sessionScope.customer != null}">
@@ -34,5 +37,6 @@
 				</c:if>
 			</td>
 		</tr>
-	</table>
 </c:forEach>
+	</tbody>
+</table>
