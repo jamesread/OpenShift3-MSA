@@ -11,6 +11,7 @@
 <head>
 <title>Products</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel = "stylehseet" type = "text/css" href = "stylesheets/main.css" / >
 <head>
 <body>
 	<c:choose>

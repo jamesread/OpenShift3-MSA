@@ -12,7 +12,7 @@
 <c:forEach var="product" items="${products}">
 	<br />
 	<br />
-	<table style="margin: 0px auto; width: 80%; border: 1px solid black;">
+	<table>
 		<caption style="margin: 0px auto; font-size: 3em">${product.name}</caption>
 		<tr style="border: 1px solid black;">
 			<td style="border: 1px solid black; padding: 5px"><img

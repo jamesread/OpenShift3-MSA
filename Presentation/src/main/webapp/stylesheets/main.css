@@ -1,0 +1,12 @@
+body {
+	font-family: "Overpass", sans-serif;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+caption {
+	background-color: #cc0000;
+	color: white;
+}
