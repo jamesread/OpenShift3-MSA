@@ -8,6 +8,10 @@ table {
 	margin: auto;
 }
 
+table, tr, td {
+	border: 1px solid black;
+}
+
 caption {
 	background-color: #cc0000;
 	color: white;
