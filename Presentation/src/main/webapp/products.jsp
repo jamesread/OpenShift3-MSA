@@ -15,12 +15,12 @@
 	<tbody>
 <c:forEach var="product" items="${products}">
 		<tr>
-			<td>
-				<caption>${product.name}</caption>
+			<td class = "productImage">
+				<p>${product.name}</p>
 				<img
 					alt="${product.name}" src="/images/${product.image}.png"
-					height="144" width="144">
-					</td>
+					height="144" width="144" />
+			</td>
 			<td>${product.description}</td>
 			<td>Product
 				x_Dimensions: ${product.length}cm x ${product.width}cm x ${product.height}cm
