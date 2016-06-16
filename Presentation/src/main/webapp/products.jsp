@@ -20,7 +20,7 @@
 				height="144" width="144"></td>
 			<td style="border: 1px solid black; padding: 5px">${product.description}</td>
 			<td style="border: 1px solid black; padding: 5px">Product
-				Dimensions: ${product.length} x ${product.width} x ${product.height}
+				x_Dimensions: ${product.length} x ${product.width} x ${product.height}
 				<br /> Product Weight: ${product.weight}
 			</td>
 			<td style="border: 1px solid black; padding: 5px">
